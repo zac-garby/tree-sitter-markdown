@@ -23,7 +23,7 @@ const PUNCTUATION_CHARACTERS_REGEX = '!-/:-@\\[-`\\{-~';
 // inline contents in different contexts.
 // !!!
 module.exports = grammar(add_inline_rules({
-    name: 'markdown_inline',
+    name: 'noteboks_md_inline',
 
     externals: $ => [
         // An `$._error` token is never valid  and gets emmited to kill invalid parse branches. Concretely
