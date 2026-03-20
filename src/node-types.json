@@ -47,6 +47,10 @@
           "named": true
         },
         {
+          "type": "citation",
+          "named": true
+        },
+        {
           "type": "code_span",
           "named": true
         },
@@ -190,6 +194,10 @@
           "named": true
         },
         {
+          "type": "citation",
+          "named": true
+        },
+        {
           "type": "code_span",
           "named": true
         },
@@ -271,6 +279,10 @@
       "types": [
         {
           "type": "backslash_escape",
+          "named": true
+        },
+        {
+          "type": "citation",
           "named": true
         },
         {
@@ -445,6 +457,10 @@
           "named": true
         },
         {
+          "type": "citation",
+          "named": true
+        },
+        {
           "type": "code_span",
           "named": true
         },
@@ -546,6 +562,10 @@
           "named": true
         },
         {
+          "type": "citation",
+          "named": true
+        },
+        {
           "type": "code_span",
           "named": true
         },
@@ -630,6 +650,10 @@
       "types": [
         {
           "type": "backslash_escape",
+          "named": true
+        },
+        {
+          "type": "citation",
           "named": true
         },
         {
@@ -861,6 +885,10 @@
   {
     "type": "`",
     "named": false
+  },
+  {
+    "type": "citation",
+    "named": true
   },
   {
     "type": "code_span_delimiter",

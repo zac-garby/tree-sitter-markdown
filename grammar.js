@@ -360,6 +360,7 @@ module.exports = grammar(add_inline_rules({
             alias($._html_tag, $.html_tag),
             $._text_base,
             common.EXTENSION_TAGS ? $.tag : choice(),
+            $.citation,
             $._unclosed_span,
         ))),
         _text_base: $ => choice(
@@ -381,6 +382,10 @@ module.exports = grammar(add_inline_rules({
         ...(common.EXTENSION_TAGS ? {
             tag: $ => /#[0-9]*[a-zA-Z_\-\/][a-zA-Z_\-\/0-9]*/,
         } : {}),
+
+        // Pandoc-style citation: @citekey
+        // citekey = letter/underscore followed by letters, digits, and :.#$%&+-_
+        citation: $ => /@[a-zA-Z_][a-zA-Z0-9_:.#$%&+\-]*/,
 
     },
 }));
