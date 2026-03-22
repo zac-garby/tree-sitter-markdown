@@ -4585,8 +4585,8 @@
               "name": "_text_base"
             },
             {
-              "type": "CHOICE",
-              "members": []
+              "type": "SYMBOL",
+              "name": "tag"
             },
             {
               "type": "SYMBOL",
@@ -4791,6 +4791,10 @@
           "name": "_unclosed_span"
         }
       ]
+    },
+    "tag": {
+      "type": "PATTERN",
+      "value": "#[0-9]*[a-zA-Z_\\-\\/][a-zA-Z_\\-\\/0-9]*"
     },
     "citation": {
       "type": "PATTERN",

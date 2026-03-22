@@ -115,6 +115,10 @@
           "named": true
         },
         {
+          "type": "tag",
+          "named": true
+        },
+        {
           "type": "uri_autolink",
           "named": true
         },
@@ -258,6 +262,10 @@
           "named": true
         },
         {
+          "type": "tag",
+          "named": true
+        },
+        {
           "type": "uri_autolink",
           "named": true
         },
@@ -343,6 +351,10 @@
         },
         {
           "type": "strong_emphasis",
+          "named": true
+        },
+        {
+          "type": "tag",
           "named": true
         },
         {
@@ -505,6 +517,10 @@
           "named": true
         },
         {
+          "type": "tag",
+          "named": true
+        },
+        {
           "type": "uri_autolink",
           "named": true
         }
@@ -630,6 +646,10 @@
           "named": true
         },
         {
+          "type": "tag",
+          "named": true
+        },
+        {
           "type": "uri_autolink",
           "named": true
         },
@@ -718,6 +738,10 @@
         },
         {
           "type": "strong_emphasis",
+          "named": true
+        },
+        {
+          "type": "tag",
           "named": true
         },
         {
@@ -912,6 +936,10 @@
   },
   {
     "type": "numeric_character_reference",
+    "named": true
+  },
+  {
+    "type": "tag",
     "named": true
   },
   {
