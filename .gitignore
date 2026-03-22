@@ -41,3 +41,5 @@ dist/
 bindings/c/
 bindings/swift/TreeSitterMarkdown/
 bindings/swift/TreeSitterMarkdownInline/
+
+.DS_Store
